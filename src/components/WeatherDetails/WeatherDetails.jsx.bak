@@ -2,7 +2,7 @@ import React from 'react'
 import { PropTypes } from 'prop-types';
 import Typography from '@material-ui/core/Typography'
 
-const WeatherDetails = ({ humidity, wind}) => {
+export const WeatherDetails = ({ humidity, wind}) => {
     return (
         <>
             <Typography>Humedad: {humidity}%</Typography>

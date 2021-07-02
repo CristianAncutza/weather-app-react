@@ -74,7 +74,7 @@ const CityPage = () => {
                     const tempObjArray = data.list.filter(item => {
                         
                         const dayOfYear = moment.unix(item.dt).dayOfYear()
-                        return dayOfYear === day.dayOfYear()
+                        return dayOfYear === data.dayOfYear()
                     })
                     
                     const temps = tempObjArray.map(item => item.main.temp)

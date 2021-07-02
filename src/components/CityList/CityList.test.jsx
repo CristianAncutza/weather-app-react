@@ -6,7 +6,7 @@ const cities =[
     {city:"Buenos Aires", country:"Argentina"},
     {city:"Bogota", country:"Colombia"},
     {city:"Madrid", country:"España"},
-    {city:"DF", country:"Mexico"},
+    {city:"Ciudad de México", country:"Mexico"},
 ]
 
 test("CityList renders", async() => {

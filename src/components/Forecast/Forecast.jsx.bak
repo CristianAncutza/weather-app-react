@@ -17,8 +17,8 @@ const renderForecastItem = forecast => {
         temperature={temperature}
       ></ForecastItem>
     </Grid>
-  )
-}
+  );
+};
 
 const Forecast = ({ forecastItemList }) => {
   return (

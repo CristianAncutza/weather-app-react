@@ -1,1 +1,1 @@
-export { default, validValues} from './WelcomeScreen'
+export { default} from './WelcomeScreen'

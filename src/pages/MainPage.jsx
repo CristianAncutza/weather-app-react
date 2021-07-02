@@ -8,7 +8,7 @@ const cities = [
     {city:"Buenos Aires", country:"Argentina", countryCode:"AR"},
     {city:"Bogota", country:"Colombia", countryCode:"CO"},
     {city:"Madrid", country:"España", countryCode:"ES"},
-    {city:"DF", country:"Mexico", countryCode:"MX"},
+    {city:"Ciudad de México", country:"Mexico", countryCode:"MX"},
 ]
 
 const MainPage = () => {
@@ -17,7 +17,6 @@ const MainPage = () => {
     const onClickHandler = (city, countryCode) =>{
         //history.push permite alterar la URL por programacion
         history.push(`/city/${countryCode}/${city}`)
-
     }
 
     return (

@@ -1,11 +1,15 @@
 import React from 'react'
 import ForecastChart from './ForecastChart'
 
-export default{
-    title:"ForecastChart",
+export default {
+    title: "ForecastChart",
     component: ForecastChart
 }
 
+// dia y hora: "DDD HH"
+// Tres posiciones para el día y dos para la hora
+// min: Temperatura mínima
+// max: Temperatura máxima
 const data = [
     {
         "dayHour": "Jue 18",
@@ -37,9 +41,8 @@ const data = [
         "min": 12,
         "max": 19,
     }
-
 ]
 
-export const ForeCastChartExample = () =>(
-    <ForecastChart></ForecastChart>
+export const ForecastChartExample = () => (
+    <ForecastChart data={data} />
 )

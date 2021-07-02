@@ -1,6 +1,6 @@
 import React from 'react'
 import CityList from './CityList'
-import {action} from '@storybook/addon-actions'
+import { action } from '@storybook/addon-actions'
 
 export default{
     title:"CityList",
@@ -11,7 +11,7 @@ const cities =[
     {city:"Buenos Aires", country:"Argentina"},
     {city:"Bogota", country:"Colombia"},
     {city:"Madrid", country:"España"},
-    {city:"DF", country:"Mexico"},
+    {city:"Ciudad de México", country:"Mexico"},
 
 ]
 
