@@ -6,7 +6,7 @@ import Weather from './../components/Weather'
 import WeatherDetails from './../components/WeatherDetails'
 import ForecastChart from './../components/ForecastChart'
 import Forecast from './../components/Forecast'
-import useCityPage from './../hooks/useCityPage'
+import useCityPage from './../Hooks/useCityPage'
 
 const CityPage = () => {
     const { city, chartData, forecastItemList } = useCityPage()

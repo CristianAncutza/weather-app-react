@@ -4,11 +4,10 @@ import Alert from '@material-ui/lab/Alert'
 import Grid from '@material-ui/core/Grid'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
-import useCityList from '../../hooks/useCityList'
 import CityInfo from './../CityInfo'
 import Weather from './../Weather'
 import { getCityCode } from '../../utils/utils'
-
+import useCityList  from '../../Hooks/useCityList'
 
 // li: es un item (según tag html, tiene el role "listitem")
 // renderCityAndCountry se va a convertir en una función que retorna otra función
