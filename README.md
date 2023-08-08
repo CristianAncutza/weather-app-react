@@ -1,5 +1,10 @@
 LA APP: https://ancutza-calc-app-test.web.app/
 
+para el error Webpack build failing with ERR_OSSL_EVP_UNSUPPORTED 
+
+PowerShell: $env:NODE_OPTIONS="--openssl-legacy-provider" 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
