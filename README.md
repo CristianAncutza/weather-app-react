@@ -1,5 +1,10 @@
 LA APP: https://ancutza-calc-app-test.web.app/
 
+para el error Webpack build failing with ERR_OSSL_EVP_UNSUPPORTED 
+
+en package.json scripts agregar "start": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && react-scripts start",
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
